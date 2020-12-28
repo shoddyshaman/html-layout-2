@@ -1,0 +1,170 @@
+html{
+    padding:-10px;
+    margin:-10px;
+    
+}
+
+body{
+    background-color:inherit;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    z-index: 4;
+    padding-top: 20px;
+    
+    /* visibility: inherit; */
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+}
+
+img.logo{
+    height: 300px;
+    align-self: flex-start;
+    position: relative;
+    top: -130px;
+}
+
+nav{
+    align-items: center;
+    padding-top: 10px;
+}
+a{
+    font: 12px D-DIN-Bold,Arial,Verdana,sans-serif;
+    padding: 20px;
+    color:white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: white;
+    color:black;
+}
+.button{
+    visibility: inherit;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    height: 50px;
+    width: 180px;
+    background-color:inherit;
+    font:14px D-DIN-Bold,Arial,Verdana,sans-serif;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.section-box{
+    height:100vh;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#block-1 {
+    background-image: url("https://www.spacex.com/static/images/backgrounds-new/SN8_20201110.webp");
+    
+}
+
+#block-2{
+    background-image: url("https://www.spacex.com/static/images/backgrounds-new/CRS21_UCS_DSC_9620.webp") ;
+    
+}
+
+#block-3{
+    background-image: url("https://www.spacex.com/static/images/crew-1/dragon-window-desktop.webp");
+}
+
+#block-4{
+    background-image: url("https://www.spacex.com/static/images/backgrounds/iss_game.webp");
+}
+
+#block-5{
+    background-image: url("https://www.spacex.com/static/images/crew-1/SN8.webp");
+}
+
+#block-6{
+    background-image: url("https://www.spacex.com/static/images/backgrounds/home_moon.webp");
+}
+
+.inner-left-bottom{
+    flex-wrap: wrap;
+    width: 200px;
+    position: relative;
+    /* bottom:  100px; */
+    /* right: 100px; */
+    top:350px;
+    left:120px;
+}
+
+h3{
+    font: 14px/28px D-DIN-Bold,Arial,Verdana,sans-serif;
+    color: white;
+}
+
+h2{
+    font: 14px/28px D-DIN-Bold,Arial,Verdana,sans-serif;
+    color: white;
+}
+
+h1{
+    font: 48px D-DIN-Bold,Arial,Verdana,sans-serif;;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #fff;
+    margin: auto;
+    position:relative;
+    display: block;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    
+}
+
+p{
+    font: 14px/28px D-DIN-Bold,Arial,Verdana,sans-serif;
+    color: white;
+}
+
+.inner-left-top{
+    flex-wrap: wrap;
+    width: 200px;
+    position: relative;
+    left: 120px;
+    top: 150px;
+}
+
+.inner-right-top{
+    flex-wrap: wrap;
+    width: 200px;
+    position: relative;
+    left: 1000px;
+    top: 150px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color:black;
+    text-decoration:none;
+    padding-top: 30px;
+    
+    
+}
